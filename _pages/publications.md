@@ -17,9 +17,10 @@ permalink: /publications/
             {{ pub.title }}
           </a>
         </h3>
-        <p class="pub-abstract">
+        <small class="pub-date">{{ pub.date | date: "%B %Y" }}</small>
+        <!-- <p class="pub-abstract">
             {{ pub.abstract | truncatewords: 40, "..." }}
-        </p>
+        </p> -->
       </div>
     </div>
   {% endfor %}

@@ -1,5 +1,5 @@
 ---
-title: "Time-Dependent Hamiltonian Reconstruction Using Continuous Weak Measurements"
+title: "Time-dependent hamiltonian reconstruction using continuous weak measurements"
 collection: publications
 image: gates.png
 external_url: https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.040324

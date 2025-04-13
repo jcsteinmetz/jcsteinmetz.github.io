@@ -1,5 +1,5 @@
 ---
-title: "Chaos in Continuously Monitored Quantum Systems: An Optimal Path Approach"
+title: "Chaos in continuously monitored quantum systems: an optimal path approach"
 collection: publications
 image: chaos.png
 external_url: https://arxiv.org/abs/1803.07615

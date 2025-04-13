@@ -17,9 +17,10 @@ permalink: /patents/
             {{ pat.title }}
           </a>
         </h3>
-        <p class="pat-abstract">
+        <small class="pat-date">{{ pat.date | date: "%B %Y" }}</small>
+        <!-- <p class="pat-abstract">
             {{ pat.abstract | truncatewords: 40, "..." }}
-        </p>
+        </p> -->
       </div>
     </div>
   {% endfor %}
