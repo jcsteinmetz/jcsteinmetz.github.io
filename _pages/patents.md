@@ -13,7 +13,7 @@ permalink: /patents/
       </div>
       <div class="pat-meta">
         <h3 class="pat-title">
-          <a href="{{ pat.external_link | default: pat.url | relative_url }}" target="_blank">
+          <a href="{{ pat.external_url | default: pat.url | relative_url }}" target="_blank">
             {{ pat.title }}
           </a>
         </h3>
