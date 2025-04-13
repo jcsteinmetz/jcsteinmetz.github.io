@@ -13,7 +13,7 @@ permalink: /publications/
       </div>
       <div class="pub-meta">
         <h3 class="pub-title">
-          <a href="{{ pub.external_link | default: pub.url | relative_url }}" target="_blank">
+          <a href="{{ pub.external_url | default: pub.url | relative_url }}" target="_blank">
             {{ pub.title }}
           </a>
         </h3>
