@@ -9,8 +9,11 @@ permalink: /publications/
   {% for pub in publications %}
     <div class="pub-entry">
       <div class="pub-img">
-        <img src="{{ '/assets/' | append: pub.image }}" alt="{{ pub.title }}">
+        <a href="{{ pub.external_url | default: pub.url | relative_url }}" target="_blank">
+          <img src="{{ '/assets/' | append: pub.image }}" alt="{{ pub.title }}">
+        </a>
       </div>
+
       <div class="pub-meta">
         <h3 class="pub-title">
           <a href="{{ pub.external_url | default: pub.url | relative_url }}" target="_blank">

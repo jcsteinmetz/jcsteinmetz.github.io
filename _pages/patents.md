@@ -9,8 +9,11 @@ permalink: /patents/
   {% for pat in patents %}
     <div class="pat-entry">
       <div class="pat-img">
-        <img src="{{ '/assets/' | append: pat.image }}" alt="{{ pat.title }}">
+        <a href="{{ pat.external_url | default: pat.url | relative_url }}" target="_blank">
+          <img src="{{ '/assets/' | append: pat.image }}" alt="{{ pat.title }}">
+        </a>
       </div>
+
       <div class="pat-meta">
         <h3 class="pat-title">
           <a href="{{ pat.external_url | default: pat.url | relative_url }}" target="_blank">
