@@ -1,0 +1,8 @@
+---
+title: "Quantum telescopy clock games"
+collection: publications
+image: clock.png
+external_url: https://arxiv.org/abs/2203.06252
+date: 2022-09-21
+abstract: "We consider the clock game–a task formulated in the framework of quantum information theory—that can be used to improve the existing schemes of quantum-enhanced telescopy. The problem of learning when a stellar photon reaches a telescope is translated into an abstract game, which we call the clock game. A winning strategy is provided that involves performing a quantum non-demolition measurement that verifies which stellar spatio-temporal modes are occupied by a photon without disturbing the phase information. We prove tight lower bounds on the entanglement cost needed to win the clock game, with the amount of necessary entangled bits equaling the number of time bins being distinguished. This lower bound on the entanglement cost applies to any telescopy protocol that aims to nondestructively extract the time bin information of an incident photon through local measurements, and our result implies that the protocol of Khabiboulline et al. [Phys. Rev. Lett. 123, 070504 (2019)] is optimal in terms of entanglement consumption. The full task of the phase extraction is also considered, and we show that the quantum Fisher information of the stellar phase can be achieved by local measurements and shared entanglement without the necessity of nonlinear optical operations. The optimal phase measurement is achieved asymptotically with increasing number of ancilla qubits, whereas a single qubit pair is required if nonlinear operations are allowed."
+---

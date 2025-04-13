@@ -1,0 +1,8 @@
+---
+title: "Time-Dependent Hamiltonian Reconstruction Using Continuous Weak Measurements"
+collection: publications
+image: gates.png
+external_url: https://journals.aps.org/prxquantum/abstract/10.1103/PRXQuantum.4.040324
+date: 2023-11-09
+abstract: "Reconstructing the Hamiltonian of a quantum system is an essential task for characterizing and certifying quantum processors and simulators. Existing techniques either rely on projective measurements of the system before and after coherent time evolution and do not explicitly reconstruct the full time-dependent Hamiltonian or interrupt evolution for tomography. Here, we experimentally demonstrate that an a priori unknown, time-dependent Hamiltonian can be reconstructed from continuous weak measurements concurrent with coherent time evolution in a system of two superconducting transmons coupled by a flux-tunable coupler. In contrast to previous work, our technique does not require interruptions, which would distort the recovered Hamiltonian. We introduce an algorithm, which recovers the Hamiltonian and density matrix from an incomplete set of continuous measurements, and demonstrate that it reliably extracts amplitudes of a variety of single-qubit and entangling two-qubit Hamiltonians. We further demonstrate how this technique reveals deviations from a theoretical control Hamiltonian, which would otherwise be missed by conventional techniques. Our work opens up novel applications for continuous weak measurements, such as studying nonidealities in gates, certifying analog quantum simulators, and performing quantum metrology."
+---
